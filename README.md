@@ -1,25 +1,8 @@
-![Logo-nav](https://s3.ap-south-1.amazonaws.com/kalvi-education.github.io/front-end-web-development/Kalvium-Logo.png)
+# React + Vite
 
-### Learning Goals:
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-The aim of this lab is to undertand the working of `redux-thunk`. 
+Currently, two official plugins are available:
 
-### Task:
-Create a new react-app as `react-redux-thunk` and fetch the data when clicked on a button ( button name -> Fetch Data ) from the given api using redux-thunk: 
-
-Use the following command to install redux-thunk: `npm install redux-thunk`
-
-`https://jsonplaceholder.typicode.com/users`
-
-From the given api, you need to display, the following:
-1. Name of the user.
-2. Email of the user.
-
-Your output should look something like this:
-
-![](https://s3.ap-south-1.amazonaws.com/kalvi-education.github.io/front-end-web-development/react-thunk.gif)
-
-***NOTE:*** Make sure to use different components for every concepts, for eg: your `actions` and `reducers` should not be in the same component.
-
-Happy Coding ❤️!
-
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
